@@ -1,0 +1,21 @@
+[package]
+name = "quake_qtvinfo"
+description = "Parse QTV info strings."
+categories = ["parsing"]
+keywords = ["qtv", "quake", "quakeworld"]
+repository = "https://github.com/vikpe/quake_qtvinfo"
+authors = ["Viktor Persson <viktor.persson@arcsin.se>"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+include = [
+    "/Cargo.toml",
+    "/README.md",
+    "/src/**",
+]
+
+[dependencies]
+quake_infostring = "0.1.0"
+
+[dev-dependencies]
+pretty_assertions = "1.4.0"
